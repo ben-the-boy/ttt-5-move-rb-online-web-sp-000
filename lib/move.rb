@@ -11,7 +11,7 @@ end
 input = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 def input_to_index(input)
   number = input.to_i 
-  puts number 
+  puts (number - 1)
 end
 
 def move(board, input_to_index, value = "X")
